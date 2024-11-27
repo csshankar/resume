@@ -16,7 +16,7 @@ export const Hero = () => {
                 <button >
                 <a href="https://cal.com/kumar-shankar" target="_blank" rel="noreferrer noopener" className="bg-gray-900 px-4 sm:h-11 h-10 mt-8 rounded-xl flex items-center justify-center md:text-base text-sm border-2 border-sky-500 text-white hover:bg-gray-700 transition duration-500" type="submit">Schedule Call</a>
                 </button>
-                <button> <a href="https://wa.me/917384428903?text=I want to work on a project with you" className=" bg-green-600 px-4 sm:h-11 h-10 mt-8 rounded-xl flex items-center justify-center md:text-base text-sm text-white border-2 border-green-300 hover:border-green-900 transition duration-500" type="submit">Chat on WhatsApp</a></button>
+                <button> <a href="https://wa.me/917384428903?text=I want to work on a project with you" className=" bg-green-400 px-4 sm:h-11 h-10 mt-8 rounded-xl flex items-center justify-center md:text-base text-sm text-white border-2 border-green-500 hover:bg-green-900 transition duration-500" type="submit">Chat on WhatsApp</a></button>
                 </div>
         </div>
 
