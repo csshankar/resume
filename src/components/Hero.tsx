@@ -11,7 +11,7 @@ export const Hero = () => {
             <div className="flex items-center gap-2">
                 <button>
                 
-                <a href="/assets/Resume_kumar.pdf" download=""   className="bg-gray-900 px-4 sm:h-11 h-10 mt-8 rounded-xl flex items-center justify-center md:text-base text-sm text-white border-2 border-sky-500 hover:bg-gray-700  transition duration-500" type="submit">  Resume   </a>
+                <a href="/assets/Kumar_Resume_24012025.pdf" download=""   className="bg-gray-900 px-4 sm:h-11 h-10 mt-8 rounded-xl flex items-center justify-center md:text-base text-sm text-white border-2 border-sky-500 hover:bg-gray-700  transition duration-500" type="submit">  Resume   </a>
                 </button>
                 <button >
                 <a href="https://cal.com/kumar-shankar" target="_blank" rel="noreferrer noopener" className="bg-gray-900 px-4 sm:h-11 h-10 mt-8 rounded-xl flex items-center justify-center md:text-base text-sm border-2 border-sky-500 text-white hover:bg-gray-700 transition duration-500" type="submit">Schedule Call</a>
