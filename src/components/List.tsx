@@ -2,7 +2,7 @@
 export const products = [
     {
       "description": "Payments app with features to add money and perform peer-to-peer (P2P) payments through wallet",
-      "target": "https://payments.crackedxdev.store",
+      "target": "https://payments.csshankar.in",
       "project": "Payment-App",
       "thumb": "payments.webp",
       "tech1": "Nextjs",
@@ -13,7 +13,7 @@ export const products = [
     },
     {
       "description": "Blogging platform, featuring user authentication (signup/login) & user-friendly interface.",
-      "target": "https://blog.crackedxdev.store/",
+      "target": "https://blog.csshankar.in/",
       "project": "Blog-Me",
       "thumb": "Blog.webp",
       "tech1": "React",
@@ -24,7 +24,7 @@ export const products = [
     },
     {
       "description": "YT-clone is a video-sharing platform where users can watch, like, comment, and share videos",
-      "target": "https://video.crackedxdev.store/",
+      "target": "https://video.csshankar.in/",
       "project": "Youtube Clone frontend",
       "thumb": "ytclone.webp",
       "tech1": "Nextjs",
