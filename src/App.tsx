@@ -1,40 +1,33 @@
-import './App.css'
 import { Appbar } from './components/Appbar'
+import { Hero } from './components/Hero'
+import { About } from './components/About'
+import { Skills } from './components/Skills'
+import { Projects } from './components/Projects'
+import { Experience } from './components/Experience'
+import { Contact } from './components/Contact'
 import { Footer } from './components/Footer'
 
-import { Hero } from './components/Hero'
-import { List, products } from './components/List'
-
-
 function App() {
-
   return (
-    <div className='bg-black'>
-      <div  className='px-4 mx-auto sm:max-w-4xl flex flex-col min-h-screen'>
-        <Appbar/>
-        <Hero/>
-      
-      <div className="flex flex-col gap-4 mt-16">
-        <h2 className='text-white text-pretty font-semibold '>Recent Projects</h2>
-        {products.map((product, index) => (
-          <List
-            key={index}
-            description={product.description}
-            target={product.target}
-            project={product.project}
-            thumb={product.thumb}
-            tech1={product.tech1}
-            tech2={product.tech2}
-            tech3={product.tech3}
-            tech4={product.tech4}
-            tech5={product.tech5}
-          />
-        ))}
+    <div className="relative min-h-screen w-full bg-[#0a0a0a] text-slate-200 selection:bg-[#00f0ff]/30 selection:text-[#00f0ff]">
+      {/* Subtle purple gradient background for AI vibe */}
+      <div className="fixed inset-0 z-0 pointer-events-none">
+        <div className="absolute top-0 right-0 w-[500px] h-[500px] bg-purple-600/10 rounded-full blur-[120px]"></div>
+        <div className="absolute bottom-0 left-0 w-[500px] h-[500px] bg-[#00f0ff]/5 rounded-full blur-[100px]"></div>
       </div>
-     
-      <Footer />
+
+      <div className="relative z-10 flex min-h-screen flex-col">
+        <Appbar />
+        <main className="flex-1 space-y-32 pb-32">
+          <Hero />
+          <About />
+          <Skills />
+          <Projects />
+          <Experience />
+          <Contact />
+        </main>
+        <Footer />
       </div>
-     
     </div>
   )
 }
