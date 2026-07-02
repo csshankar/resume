@@ -80,7 +80,7 @@ export const List: React.FC<Product> = (props) => {
       transition={{ duration: 0.6, delay: props.index * 0.1, ease: [0.16, 1, 0.3, 1] }}
       className="group relative"
     >
-      <div className="absolute -inset-0.5 rounded-2xl bg-gradient-to-br from-sky-500/20 to-purple-600/20 opacity-0 blur-md transition-opacity duration-500 group-hover:opacity-100"></div>
+      <div className="absolute -inset-0.5 rounded-2xl bg-gradient-to-br from-sky-500/20 to-blue-600/20 opacity-0 blur-md transition-opacity duration-500 group-hover:opacity-100"></div>
       <div className="relative flex flex-col items-start gap-6 rounded-2xl border border-white/10 bg-[#0a0a0a]/80 p-6 backdrop-blur-sm transition-colors duration-500 hover:bg-[#111] md:flex-row md:items-center">
         
         <div className="relative h-48 w-full shrink-0 overflow-hidden rounded-xl md:h-36 md:w-64">

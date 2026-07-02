@@ -8,11 +8,11 @@ export const Hero = () => {
         initial={{ opacity: 0, scale: 0.95 }}
         animate={{ opacity: 1, scale: 1 }}
         transition={{ duration: 0.8, delay: 0.1, ease: [0.16, 1, 0.3, 1] }}
-        className="mb-8 inline-flex items-center gap-2 rounded-full border border-[#00f0ff]/30 bg-[#00f0ff]/10 px-4 py-2 text-sm font-medium text-[#00f0ff]"
+        className="mb-8 inline-flex items-center gap-2 rounded-full border border-accent/30 bg-accent/10 px-4 py-2 text-sm font-medium text-accent"
       >
         <span className="relative flex h-2 w-2">
-          <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-[#00f0ff] opacity-75"></span>
-          <span className="relative inline-flex h-2 w-2 rounded-full bg-[#00f0ff]"></span>
+          <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-accent opacity-75"></span>
+          <span className="relative inline-flex h-2 w-2 rounded-full bg-accent"></span>
         </span>
         Currently building full-stack AI tools
       </motion.div>
@@ -24,7 +24,7 @@ export const Hero = () => {
         className="max-w-5xl font-sans text-5xl font-extrabold tracking-tight text-white sm:text-7xl"
       >
         Kumar Shankar — Building the Future with <br className="hidden md:block" />
-        <span className="bg-gradient-to-r from-[#00f0ff] to-purple-500 bg-clip-text text-transparent">React, Next.js & AI</span>
+        <span className="bg-gradient-to-r from-accent to-blue-500 bg-clip-text text-transparent">React, Next.js & AI</span>
       </motion.h1>
 
       <motion.p
@@ -44,7 +44,7 @@ export const Hero = () => {
       >
         <a
           href="#projects"
-          className="group flex h-14 items-center justify-center gap-2 rounded-xl bg-[#00f0ff] px-8 text-base font-bold text-black shadow-[0_0_20px_rgba(0,240,255,0.4)] transition-all hover:scale-105 hover:shadow-[0_0_30px_rgba(0,240,255,0.6)]"
+          className="group flex h-14 items-center justify-center gap-2 rounded-xl bg-accent px-8 text-base font-bold text-black shadow-accent transition-all hover:scale-105 hover:shadow-accent-lg"
         >
           See My AI Projects <ArrowRight className="h-5 w-5 transition-transform group-hover:translate-x-1" />
         </a>
